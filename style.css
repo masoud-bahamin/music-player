@@ -1,0 +1,59 @@
+
+button{
+    padding: .4rem .8rem;
+    margin: .2rem .4rem;
+    cursor: pointer;
+    background-color: wheat;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover{
+    background-color: rgb(220, 184, 118);
+}
+
+button:active{
+    background-color: rgb(97, 71, 23);
+}
+
+#divmusic{
+    width: 35rem;
+    margin: 2rem auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    background-color: rgb(240, 228, 213);
+    text-align: center;
+}
+
+#divline{
+    width: 30rem;
+    height: .8rem;
+    background-color: violet;
+    border-radius: 25px;
+    margin: .4rem auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+#line{
+    width: 10px;
+    height: 10px;
+    border-radius: 25px;
+    background-color: black;
+}
+.animation{
+    animation-name: example;
+    /* animation-duration: 250s; */
+    position: relative;
+    animation-direction:normal;
+    animation-direction: normal;
+}
+@keyframes example {
+    0%   {left:0rem; top:0rem;}
+    100% {left:25rem; top:0rem;}
+  }
+  .list{
+    cursor: pointer;
+  }
